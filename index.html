@@ -1,183 +1,69 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HantiLink | Global B2B Marketplace</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
- <script src="script.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HantiLink | Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-     <header class="navbar">
-        <a href="index.html" class="logo">Hanti<span>Link</span></a>
-
-        <nav class="nav-links">
-            <a href="#home">Home</a>
-            <a href="#marketplace">Marketplace</a>
-            <a href="#how-it-works">How It Works</a>
+    <header>
+        <nav class="container navbar">
+            <a class="logo" href="index.html">Hanti<span>Link</span></a>
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="dashboard.html">Dashboard</a>
+                <a href="about.html">About</a>
+            </div>
         </nav>
-         <div class="nav-actions">
-            <a href="#marketplace" class="login-link">Explore Products</a>
-            <a href="#get-started" class="btn btn-primary">Get Started</a>
-        </div>
-        </header>
-         <main>
-        <section class="hero" id="home">
-            <div class="hero-content">
-                <p class="eyebrow">THE B2B MARKETPLACE</p>
+    </header>
 
-                <h1>
-                    Your Business.<br>
-                    <span>Connected to More.</span>
-                </h1>
-
-                <p class="hero-description">
-                    Discover trusted suppliers, explore wholesale products,
-                    and build stronger business connections in one place.
-                </p>
-
-                <div class="hero-actions">
-                    <a href="#marketplace" class="btn btn-primary">
-                        Explore Marketplace →
-                    </a>
-
-                    <a href="#get-started" class="btn btn-secondary">
-                        Become a Supplier
-                    </a>
-                </div>
-
-                 <div class="hero-trust">
-                    <span>✓ Wholesale products</span>
-                    <span>✓ Supplier discovery</span>
-                    <span>✓ Quote requests</span>
-                </div>
-            </div>
-             <div class="hero-visual">
-                <img
-                    src="https://images.pexels.com/photos/4481259/pexels-photo-4481259.jpeg?auto=compress&cs=tinysrgb&w=1000"
-                    alt="Warehouse worker organizing products for distribution"
-                >
-
-                <div class="floating-card">
-                    <span class="status-dot"></span>
-                    <div>
-                        <strong>Business made simpler</strong>
-                        <p>Products, suppliers and orders.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="marketplace-section" id="marketplace">
-            <div class="section-heading">
-                <div>
-                    <p class="eyebrow">DISCOVER OPPORTUNITIES</p>
-                    <h2>Explore the Marketplace</h2>
-                    <p>Find products for your next business order.</p>
-                </div>
-
-                <a href="#marketplace" class="text-link">View all products →</a>
-            </div>
-
-            <div class="product-grid">
-
-                <article class="product-card">
-                    <img
-                        src="https://images.pexels.com/photos/4483610/pexels-photo-4483610.jpeg?auto=compress&cs=tinysrgb&w=700"
-                        alt="Packaged products ready for wholesale distribution"
-                    >
-
-                    <div class="product-info">
-                        <span class="product-category">Packaging</span>
-                        <h3>Packaging Supplies</h3>
-                        <p>Bulk orders available</p>
-                        <a href="#get-started" class="product-link">
-                            Request a Quote →
-                        </a>
-                    </div>
-                </article>
-
-                <article class="product-card">
-                    <img
-                        src="https://images.pexels.com/photos/4481259/pexels-photo-4481259.jpeg?auto=compress&cs=tinysrgb&w=700"
-                        alt="Warehouse storage and distribution operations"
-                    >
-
-                    <div class="product-info">
-                        <span class="product-category">Equipment</span>
-                        <h3>Warehouse Supplies</h3>
-                        <p>Business supply solutions</p>
-                        <a href="#get-started" class="product-link">
-                            Request a Quote →
-                        </a>
-                    </div>
-                </article>
-
-                <article class="product-card">
-                    <img
-                        src="https://images.pexels.com/photos/6169056/pexels-photo-6169056.jpeg?auto=compress&cs=tinysrgb&w=700"
-                        alt="Boxes and commercial goods prepared for delivery"
-                    >
-
-                    <div class="product-info">
-                        <span class="product-category">Logistics</span>
-                        <h3>Shipping Materials</h3>
-                        <p>Supplies for growing businesses</p>
-                        <a href="#get-started" class="product-link">
-                            Request a Quote →
-                        </a>
-                    </div>
-                </article>
-
-            </div>
+    <main>
+        <section class="hero container">
+            <p class="tag">YOUR BUSINESS, CONNECTED</p>
+            <h1>Discover products.<br>Connect with suppliers.</h1>
+            <p>Explore products and discover business opportunities.</p>
+            <a class="button" href="dashboard.html">Add a Product</a>
         </section>
 
-         <section class="how-section" id="how-it-works">
-            <div class="section-heading">
-                <div>
-                    <p class="eyebrow">SIMPLE BUSINESS CONNECTIONS</p>
-                    <h2>How HantiLink Works</h2>
-                    <p>Three simple steps to start doing business.</p>
-                </div>
-            </div>
-
-            <div class="steps-grid">
-                <article class="step-card">
-                    <span class="step-number">01</span>
-                    <h3>Discover Products</h3>
-                    <p>Explore products and find suppliers that match your needs.</p>
-                </article>
-
-                <article class="step-card">
-                    <span class="step-number">02</span>
-                    <h3>Request a Quote</h3>
-                    <p>Tell suppliers what you need and request wholesale pricing.</p>
-                </article>
-
-                <article class="step-card">
-                    <span class="step-number">03</span>
-                    <h3>Manage Orders</h3>
-                    <p>Keep your business requests and orders organized.</p>
-                </article>
-            </div>
+        <section class="container section">
+            <h2>Our Marketplace</h2>
+            <p>Find products listed by suppliers.</p>
+            <form id="search-form" class="search">
+                <input id="search-input" type="search"
+                    placeholder="Search products or suppliers"
+                    aria-label="Search products">
+                <button class="button" type="submit">Search</button>
+            </form>
+            <p id="search-message" aria-live="polite"></p>
+            <div id="product-list" class="products"></div>
         </section>
 
-        <section class="cta-section" id="get-started">
-            <p class="eyebrow">GROW YOUR BUSINESS</p>
-            <h2>Ready to build better business connections?</h2>
-            <p>Join the HantiLink marketplace experience.</p>
-
-            <a href="#marketplace" class="btn btn-primary">
-                Get Started →
-            </a>
+        <section class="section intro">
+            <div class="container">
+                <h2>How It Works</h2>
+                <div class="products">
+                    <article class="card">
+                        <h3>1. Discover</h3>
+                        <p>Explore available products.</p>
+                    </article>
+                    <article class="card">
+                        <h3>2. Add Products</h3>
+                        <p>List products on the Dashboard.</p>
+                    </article>
+                    <article class="card">
+                        <h3>3. Stay Organised</h3>
+                        <p>View and manage your listings.</p>
+                    </article>
+                </div>
+            </div>
         </section>
     </main>
-      <footer class="footer">
-        <a href="#home" class="logo">Hanti<span>Link</span></a>
-        <p>Connecting businesses. Simplifying wholesale.</p>
-        <p class="copyright">© 2026 HantiLink. Prototype project.</p>
+
+    <footer class="footer">
+        <p>HantiLink &copy; 2026 | Connecting Businesses</p>
     </footer>
 </body>
 </html>
