@@ -504,4 +504,207 @@ a:focus-visible {
     border-radius: 4px;
 }
 
+@media (max-width: 1050px) {
+    .navbar {
+        padding-left: 5%;
+        padding-right: 5%;
+        gap: 18px;
+    }
 
+    .nav-links {
+        gap: 18px;
+    }
+
+    .nav-actions {
+        gap: 14px;
+    }
+
+    .hero,
+    .marketplace-section,
+    .how-section {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .hero {
+        gap: 35px;
+    }
+
+    .hero h1 {
+        font-size: clamp(38px, 5vw, 55px);
+    }
+
+    .hero-visual > img {
+        height: 380px;
+    }
+
+    .product-grid,
+    .steps-grid {
+        gap: 18px;
+    }
+
+    .product-info {
+        padding: 20px;
+    }
+
+    .step-card {
+        padding: 25px;
+    }
+}
+
+@media (max-width: 760px) {
+    html {
+        scroll-padding-top: 20px;
+    }
+
+    .navbar {
+        position: relative;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 18px 5%;
+        gap: 16px;
+    }
+
+    .logo {
+        font-size: 25px;
+    }
+
+    .nav-links {
+        order: 3;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 22px;
+        padding-top: 12px;
+        border-top: 1px solid var(--border-color);
+    }
+
+    .nav-links a {
+        font-size: 13px;
+    }
+
+    .nav-actions {
+        gap: 12px;
+    }
+
+    .login-link {
+        display: none;
+    }
+
+    .nav-actions .btn {
+        padding: 10px 14px;
+        font-size: 12px;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+        padding: 65px 5%;
+        gap: 45px;
+    }
+
+    .hero-content {
+        max-width: 100%;
+    }
+
+    .hero h1 {
+        font-size: clamp(40px, 9vw, 58px);
+        letter-spacing: -1.8px;
+    }
+
+    .hero-description {
+        font-size: 14px;
+    }
+
+    .hero-visual {
+        max-width: 100%;
+        justify-self: stretch;
+    }
+
+    .hero-visual > img {
+        height: 340px;
+    }
+
+    .floating-card {
+        left: 12px;
+        bottom: 15px;
+        padding: 16px;
+    }
+
+    .marketplace-section,
+    .how-section {
+        padding: 70px 5%;
+    }
+
+    .section-heading {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .product-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px;
+    }
+
+    .product-card > img {
+        height: 180px;
+    }
+
+    .product-info {
+        padding: 17px;
+    }
+
+    .product-info h3 {
+        font-size: 16px;
+    }
+
+    .product-info p {
+        font-size: 12px;
+    }
+
+    .steps-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .step-card {
+        padding: 25px;
+    }
+
+    .cta-section {
+        margin: 10px 5% 70px;
+        padding: 55px 22px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 30px 5%;
+        gap: 12px;
+    }
+}
+
+@media (max-width: 420px) {
+    .nav-links {
+        gap: 14px;
+    }
+
+    .nav-links a {
+        font-size: 12px;
+    }
+
+    .nav-actions .btn {
+        padding: 9px 11px;
+        font-size: 11px;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .hero-actions {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    
