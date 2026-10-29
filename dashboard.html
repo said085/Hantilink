@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HantiLink | Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="container navbar">
+            <a class="logo" href="index.html">Hanti<span>Link</span></a>
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="dashboard.html">Dashboard</a>
+                <a href="about.html">About</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container section">
+        <p class="tag">SUPPLIER AREA</p>
+        <h1>Product Dashboard</h1>
+        <p>Add a product to display it on the marketplace.</p>
+
+        <div class="layout">
+            <section class="card">
+                <h2>Add a Product</h2>
+                <form id="product-form">
+                    <label for="product-name">Product name</label>
+                    <input id="product-name" maxlength="70"
+                        required placeholder="e.g. Basmati Rice">
+
+                    <label for="product-category">Category</label>
+                    <select id="product-category" required>
+                        <option value="">Choose category</option>
+                        <option>Agriculture</option>
+                        <option>Electronics</option>
+                        <option>Furniture</option>
+                        <option>Clothing</option>
+                        <option>Other</option>
+                    </select>
+
+                    <label for="product-price">Price (KES)</label>
+                    <input id="product-price" type="number"
+                        min="0.01" step="0.01" required>
+
+                    <label for="supplier-name">Supplier name</label>
+                    <input id="supplier-name" maxlength="70" required>
+
+                    <label for="product-description">Description</label>
+                    <textarea id="product-description"
+                        maxlength="250" required></textarea>
+
+                    <button class="button" type="submit">Save Product</button>
+                    <p id="form-message" aria-live="polite"></p>
+                </form>
+            </section>
+
+            <section class="card">
+                <h2>Saved Products</h2>
+                <p>Products stored in this browser.</p>
+                <div id="saved-list"></div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>HantiLink &copy; 2026</p>
+    </footer>
+</body>
+</html>
